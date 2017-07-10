@@ -1,0 +1,31 @@
+h1 File Metadata Microservice
+
+h2 FreeCodeCamp &nbsp;
+  a(href="https://www.freecodecamp.org/challenges/file-metadata-microservice", target="_blank") File Metadata Microservice
+  challange
+
+h3 User stories
+
+ul
+  li User can submit a FormData object that includes a file upload
+  li When user submit something, they will receive the file size in bytes within the JSON response
+
+
+h3 Heroku App
+
+a(href="https://file-meta-data-api.herokuapp.com/") https://file-meta-data-api.herokuapp.com/
+
+br
+br
+br
+
+h1 Upload a file
+
+form(action='/' method='POST' enctype='multipart/form-data')
+  label(for='myfile') upload a file:
+  br
+  br
+  input(type='file', name='myfile', id='myfile')
+  br
+  br
+  button.btn.btn-primary(type='submit') Submit
